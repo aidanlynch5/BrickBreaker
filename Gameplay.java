@@ -212,7 +212,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
 
         // generate new map with bigger values
         map = new MapGenerator(mapX, mapY);
-        System.out.println("Map x: " + mapX + "Map y: " + mapY);
 
         repaint();
       }
